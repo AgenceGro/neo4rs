@@ -14,7 +14,7 @@ use std::convert::TryInto;
 /// A row is very similar to a `HashMap`, you can get the attributes using [`Row::get`] method.
 #[derive(Debug)]
 pub struct Row {
-    attributes: BoltMap,
+    pub attributes: BoltMap,
 }
 
 /// Snapshot of a node within a graph database
